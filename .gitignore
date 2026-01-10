@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python egg metadata
+*.egg-info/
+
+# Logs
+*.log
