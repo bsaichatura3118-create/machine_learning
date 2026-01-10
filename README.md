@@ -109,9 +109,4 @@ The objective of this machine learning project is to predict whether an online s
    streamlit run app.py
    ```
 
-   Notes:
-   - The training script now saves LabelEncoders for `Month`, `VisitorType`, and `Weekend` to the `model/` folder (`encoder_month.pkl`, `encoder_visitor.pkl`, `encoder_weekend.pkl`). The Streamlit app loads these encoders for consistent encoding.
-   - Saved scaler and model pickles are loaded by the app. If the pickles were created with a different scikit-learn version than the one used at runtime, you may see an InconsistentVersionWarning when unpickling. For reproducibility, install matching scikit-learn versions or retrain models in the target environment.
-   - If you cannot create a virtual environment under WSL, use the Windows Python installation to run the commands from PowerShell or Command Prompt (no sudo required).
 
-   If you want, I can also add exact `pip` versions (freeze) to `requirements.txt` to lock scikit-learn and avoid version mismatch warnings.
