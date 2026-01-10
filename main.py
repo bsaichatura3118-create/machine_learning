@@ -1,4 +1,4 @@
-# Online Shoppers Purchasing Intentiontention
+# Online Shoppers Purchasing Intention Prediction
 
 #Import Required Libraries
 
